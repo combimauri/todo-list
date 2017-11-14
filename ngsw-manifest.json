@@ -1,0 +1,34 @@
+{
+  "routing": {
+    "index": "/index.html",
+    "routes": {
+      "/": {
+        "match": "exact"
+      },
+      "/todo-list": {
+        "match": "prefix"
+      }
+    }
+  },
+  "static": {
+    "urls": {
+      "https://mauricioarce.github.io/todo-list/polyfills.ad37cd45a71cb38eee76.bundle.js": "11c809cb7f443f578f4d71e640d633d8ada86dd5",
+      "https://mauricioarce.github.io/todo-list/main.f51bc6556bc91ce29a87.bundle.js": "0154b76688d01412fd11db6c50f58d7587975b45",
+      "https://mauricioarce.github.io/todo-list/sw-register.6819cd2c5fa25470ecf2.bundle.js": "50d549edfbd188ed199d8d0b079afa593202e3ea",
+      "https://mauricioarce.github.io/todo-list/inline.dd48f1167e97b6e7259a.bundle.js": "3ae4eb60a7c2d1e579ed4f7929efb43d54f301bc",
+      "https://mauricioarce.github.io/todo-list/styles.6169ec474dfee90091d2.bundle.css": "128a9d2a5b8b144ed320ea54d937296f89355b7a",
+      "https://mauricioarce.github.io/todo-list/assets/icons/android-chrome-192x192.png": "06a8f465520f9b45307aad12e513a72c1f4f0f4f",
+      "https://mauricioarce.github.io/todo-list/assets/icons/android-chrome-256x256.png": "d7d643a81e29d716b6996c880d83e59b8b08528b",
+      "https://mauricioarce.github.io/todo-list/assets/icons/apple-touch-icon.png": "312a09d97d62e0fb209045cbaa3d59fa9e4ef90a",
+      "https://mauricioarce.github.io/todo-list/assets/icons/favicon-16x16.png": "1d28bbe0fd083a048ab066e5c15892c26d658c36",
+      "https://mauricioarce.github.io/todo-list/assets/icons/android-chrome-512x512.png": "4b6a692dbf65a8f8eb75bc5083e2415728ac1549",
+      "https://mauricioarce.github.io/todo-list/assets/icons/favicon-32x32.png": "186109e3e29b12c089837692bc8bdc022a40aa14",
+      "https://mauricioarce.github.io/todo-list/assets/icons/favicon.ico": "0bd4dd772b91c4ca73b5cf58a7897d7de4af11c6",
+      "https://mauricioarce.github.io/todo-list/assets/icons/mstile-150x150.png": "4ec2edcd8c2b62ac849738b70f60898dbfea630c",
+      "https://mauricioarce.github.io/todo-list/manifest.json": "f462e1901a83ff2acc77b80d8a2b5f728636b835",
+      "https://mauricioarce.github.io/todo-list/.htaccess": "c10ca6672d4188d4ba185d074a75c205546d2cab",
+      "https://mauricioarce.github.io/todo-list/index.html": "5ce1d2cc893207a590403d456163f4b9997dd739"
+    },
+    "_generatedFromWebpack": true
+  }
+}
