@@ -1,0 +1,9 @@
+<mat-selection-list>
+  <mat-list-option *ngFor="let todo of todoList">
+    {{todo}}
+  </mat-list-option>
+</mat-selection-list>
+
+<button mat-mini-fab class="todo-list-fab" (click)="openCreateTodoDialog()">
+  <mat-icon>add</mat-icon>
+</button>
