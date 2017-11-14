@@ -12,10 +12,10 @@
   },
   "static": {
     "urls": {
-      "https://mauricioarce.github.io/todo-list/polyfills.ad37cd45a71cb38eee76.bundle.js": "11c809cb7f443f578f4d71e640d633d8ada86dd5",
-      "https://mauricioarce.github.io/todo-list/main.ebb98adc691527114a11.bundle.js": "845891a77acb850587277ea95b8f7442b12cabc2",
+      "https://mauricioarce.github.io/todo-list/main.54670cd403f8365067e0.bundle.js": "c550de14dd104bdbca45259dc14bc5e0b99eb601",
+      "https://mauricioarce.github.io/todo-list/polyfills.e6475d2787bb3154d59c.bundle.js": "ac471bb21457312a9ea916b3884a173be4b17ab0",
       "https://mauricioarce.github.io/todo-list/sw-register.6819cd2c5fa25470ecf2.bundle.js": "50d549edfbd188ed199d8d0b079afa593202e3ea",
-      "https://mauricioarce.github.io/todo-list/inline.51e3dc94323ff4114212.bundle.js": "1511da5b35760b9e5ca0848e511c6a2cd6f1ce89",
+      "https://mauricioarce.github.io/todo-list/inline.e74f835f8b04bb818afa.bundle.js": "ff303aa58cfa4226f4b3efb131daebb4258ac658",
       "https://mauricioarce.github.io/todo-list/styles.6169ec474dfee90091d2.bundle.css": "128a9d2a5b8b144ed320ea54d937296f89355b7a",
       "https://mauricioarce.github.io/todo-list/assets/icons/android-chrome-192x192.png": "06a8f465520f9b45307aad12e513a72c1f4f0f4f",
       "https://mauricioarce.github.io/todo-list/assets/icons/android-chrome-256x256.png": "d7d643a81e29d716b6996c880d83e59b8b08528b",
@@ -27,7 +27,7 @@
       "https://mauricioarce.github.io/todo-list/assets/icons/mstile-150x150.png": "4ec2edcd8c2b62ac849738b70f60898dbfea630c",
       "https://mauricioarce.github.io/todo-list/manifest.json": "eb9571194125230604ceecf581a42c4921c9f7b7",
       "https://mauricioarce.github.io/todo-list/.htaccess": "c10ca6672d4188d4ba185d074a75c205546d2cab",
-      "https://mauricioarce.github.io/todo-list/index.html": "2cef2c9671bd777a4d6a3dc6f83fad0ff1471c89"
+      "https://mauricioarce.github.io/todo-list/index.html": "682fb0eb1906c2ca67eba9eef810b751b63d56ea"
     },
     "_generatedFromWebpack": true
   }
