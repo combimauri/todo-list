@@ -1,6 +1,6 @@
 <mat-selection-list>
-  <mat-list-option *ngFor="let todo of todoList">
-    {{todo}}
+  <mat-list-option *ngFor="let todo of todos | async" (click)="updateTodoSelectedStatus(todo)" [selected]="todo.selected">
+    {{todo.detail}}
   </mat-list-option>
 </mat-selection-list>
 

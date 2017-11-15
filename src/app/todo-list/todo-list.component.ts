@@ -1,5 +1,9 @@
 import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 import { MatDialog, MatDialogRef } from '@angular/material';
+import { Observable } from 'rxjs/Observable';
+
+import { AngularFireList, AngularFireDatabase } from 'angularfire2/database';
+import { AfoListObservable, AngularFireOfflineDatabase } from 'angularfire2-offline/database';
 
 import { TodoCreateComponent } from '../todo-create/todo-create.component';
 
@@ -11,13 +15,14 @@ import { TodoCreateComponent } from '../todo-create/todo-create.component';
 })
 export class TodoListComponent implements OnInit {
 
-  todoList: string[];
+  todos: Observable<any[]>;
+  todosRef: AngularFireList<any>;
 
-  constructor(public dialog: MatDialog) {
-    this.todoList = [
-      'Desayunar',
-      'Lavarse los dientes'
-    ];
+  constructor(public dialog: MatDialog, public database: AngularFireDatabase) {
+    this.todosRef = this.database.list('todos');
+    this.todos = this.todosRef.snapshotChanges().map(changes => {
+      return changes.map(c => ({ key: c.payload.key, ...c.payload.val() }));
+    });
   }
 
   ngOnInit() {
@@ -28,8 +33,17 @@ export class TodoListComponent implements OnInit {
     dialogRef = this.dialog.open(TodoCreateComponent);
     dialogRef.afterClosed().subscribe(result => {
       if (result) {
-        this.todoList.push(result);
+        this.todosRef.push({
+          detail: result,
+          selected: false
+        });
       }
+    });
+  }
+
+  updateTodoSelectedStatus(todo): void {
+    this.todosRef.update(todo.key, {
+      selected: !todo.selected
     });
   }
 
